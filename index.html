@@ -1,17 +1,27 @@
 <!doctype html>
 <html lang="tr">
   <head>
+    <link rel="preload" as="fetch" crossorigin="anonymous" href="./data/products.json?v=f56640acfd">
+    <link rel="preload" as="image" href="./logo.webp" fetchpriority="high">
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#071a3d" />
     <title>Fiyat Listesi | Uzerman</title>
-    <meta name="description" content="Uzerman güncel ürün fiyat listesi: Kalde, Baymak, Kuzeyboru, Wenta, Borusan, Trakya Döküm ve daha fazlası. Nakit ve karta taksit fiyatları." />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-    <script type="module" crossorigin src="./assets/index-C3sg10iS.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-BfEEPBMc.css">
+    <meta name="description" content="Uzerman güncel ürün fiyat listesi: Kalde, Baymak, Kuzeyboru, Wenta, Borusan, Trakya Döküm ve daha fazlası. Nakit, tek çekim ve 12 taksit fiyatları (KDV dahil)." />
+    <script type="module" crossorigin src="./assets/index-D4VS0F1A.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-DQQx7ave.css">
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root"><div class="boot" aria-hidden="true"><div class="boot-bar"></div><div class="boot-hero"><span></span><b>Fiyat Listesi</b><i></i></div></div></div>
+    <style>
+      body{margin:0;background:#f6f7fb}
+      .boot-bar{height:70px;background:#071a3d;border-bottom:1px solid rgba(255,255,255,.08)}
+      .boot-hero{background:radial-gradient(60% 80% at 15% 10%,#1d5bd8 0,transparent 60%),radial-gradient(40% 60% at 85% 100%,#ff6a1a55 0,transparent 60%),#071a3d;color:#fff;padding:56px 20px 64px;min-height:300px;box-sizing:border-box}
+      .boot-hero>*{display:block;max-width:1240px;margin:0 auto}
+      .boot-hero span{width:150px;height:28px;border-radius:99px;background:rgba(255,255,255,.08)}
+      .boot-hero b{font:800 clamp(2.6rem,7vw,5rem)/1 system-ui,sans-serif;letter-spacing:-.035em;margin-top:18px}
+      .boot-hero i{width:min(520px,80%);height:16px;border-radius:8px;background:rgba(255,255,255,.12);margin-top:18px}
+    </style>
   </body>
 </html>
