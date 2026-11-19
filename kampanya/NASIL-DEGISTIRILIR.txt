@@ -1,0 +1,15 @@
+KAMPANYALI ÜRÜNLERİ DEĞİŞTİRME
+==============================
+Dosya: fiyat-listesi/kampanya.json  (sunucuda, yeniden derleme GEREKMEZ)
+
+Her ürün için:
+  "kod"              : Excel'deki Kart Kodu (zorunlu). Ad ve fiyatlar listeden otomatik gelir.
+  "etiket"           : Üstte görünen küçük yazı (Kombi, Radyatör...)
+  "gorsel"           : (isteğe bağlı) Ürünün kendi fotoğrafı yerine farklı bir görsel, örn. "kampanya/urun.webp".
+                       Boş bırakılırsa ürün fotoğrafı (npm run gorsel) kullanılır.
+  "kampanyaBireysel" : (isteğe bağlı) indirimli KARTA TAKSİT fiyatı — liste fiyatı üstü çizili görünür
+  "kampanyaToptan"   : (isteğe bağlı) indirimli NAKİT fiyatı
+  "ad"               : (isteğe bağlı) listedeki adı değiştirmek isterseniz
+
+Ürün eklemek/çıkarmak için "urunler" listesine satır ekleyip silin.
+"urunler" boş bırakılırsa kampanya alanı gizlenir.
