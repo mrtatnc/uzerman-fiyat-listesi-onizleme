@@ -1,6 +1,6 @@
 {
   "baslik": "Kampanyalı Ürünler",
-  "otomatikGecisSaniye": 4,
+  "otomatikGecisSaniye": 2,
   "urunler": [
     {
       "kod": "100023350",
