@@ -7,8 +7,9 @@ Her ürün için:
   "etiket"           : Üstte görünen küçük yazı (Kombi, Radyatör...)
   "gorsel"           : (isteğe bağlı) Ürünün kendi fotoğrafı yerine farklı bir görsel, örn. "kampanya/urun.webp".
                        Boş bırakılırsa ürün fotoğrafı (npm run gorsel) kullanılır.
-  "kampanyaBireysel" : (isteğe bağlı) indirimli KARTA TAKSİT fiyatı — liste fiyatı üstü çizili görünür
-  "kampanyaToptan"   : (isteğe bağlı) indirimli NAKİT fiyatı
+  "kampanyaNakit"     : (isteğe bağlı) indirimli NAKİT fiyatı (KDV dahil) — liste fiyatı üstü çizili görünür
+  "kampanyaTekCekim"  : (isteğe bağlı) indirimli TEK ÇEKİM fiyatı
+  "kampanyaTaksit12"  : (isteğe bağlı) indirimli 12 TAKSİT fiyatı
   "ad"               : (isteğe bağlı) listedeki adı değiştirmek isterseniz
 
 Ürün eklemek/çıkarmak için "urunler" listesine satır ekleyip silin.
