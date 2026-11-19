@@ -1,0 +1,24 @@
+{
+  "baslik": "Kampanyalı Ürünler",
+  "otomatikGecisSaniye": 4,
+  "urunler": [
+    {
+      "kod": "100023350",
+      "etiket": "Kombi",
+      "kampanyaBireysel": 51900,
+      "kampanyaToptan": 48500
+    },
+    {
+      "kod": "100023372",
+      "etiket": "Kombi"
+    },
+    {
+      "kod": "04020333",
+      "etiket": "Termosifon"
+    },
+    {
+      "kod": "0322-rad-601000",
+      "etiket": "Radyatör"
+    }
+  ]
+}
